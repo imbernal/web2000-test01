@@ -1,0 +1,29 @@
+question-1:
+How do we measure the length of the critical rendering path?
+
+answer:
+The number of actions the browser must take (eg run js, build cssom, build dom, etc) in order to fully load and render your page.
+
+question-2
+What are the events in the Timeline pane which show the DOM being built, the CSSOM being built, and the render tree being built?
+
+answer:
+Parse HTML, Recalculate Style, Layout.
+
+question-3:
+What is the render tree?
+
+answer:
+The combination of the DOM and the CSSOM.
+
+question-4:
+What are three things you can do in order to speed up a website's load time?
+
+answer:
+Optimize the images, minify the javascript or css files and merge the javascript or css files that you are loading into your page into one file
+
+question-5:
+What is the name of the Google tool you can use to see a list of things you can do to improve your page's load speed?
+
+answer:
+PageSpeed Insights
